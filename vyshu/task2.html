@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>College Admission Form</title>
+  <style>
+    label {
+        width: 300px;
+        display: inline-block;
+    }
+    #h1{
+      float: right;
+      width: 1000px;
+    }
+  </style>
+  </script>
+</head>
+<body >
+    <div> 
+  <pre>
+    <h1>
+                                            COLLEGE ADMISSION FORM
+
+                               MADNAPALLI INSTITUTE OF TECHNOLOGY AND SCIENCE
+
+                                       ( UGC -Autonomous Institution)
+    </h1>
+  </pre>
+  <img src="mits1.jpg"  id="h1" alt="">
+
+  <form onsubmit="return validateForm()">
+    <label for="name">Name:</label>
+    <input  type="text" id="name" placeholder="vysh" name="name" required>
+    <br> 
+    <br>
+    <br>
+
+    <label for="email">Email :  </label>
+    <input type="email" id="email"email required>
+    <br>
+    <br>
+    <br>
+
+    <label for="Contact number">Contact number :</label>
+    <input type="tel" id="Contact number" name="Contact number" required>
+    <br>
+    <br>
+    <br>
+
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" name="dob" required>
+    <br>
+    <br>
+    <br>
+
+    <label for="course">Course:</label>
+    <select id="course" name="course">
+      <option value="engineering">Engineering</option>
+      <option value="MBA">MBA</option>
+      <option value="MCA">MCA</option>
+    </select>
+    <br>
+    <br>
+    <br>
+
+    <label for="branch">branch:</label>
+    <select name="branch" id="branch">
+        <option value="CSE">CSE</option>
+        <option value="CSD">CSD</option>
+        <option value="CAI">CAI</option>
+        <option value="ECE">ECE</option>
+        <option value="EEE">EEE</option>
+        <option value="CSM">CSM</option>
+        <option value="CSN">CSN</option>
+        <option value="Mech">Mech</option>
+        <option value="Civil">Civil</option>
+    </select>
+    <br>
+    <br>
+    <br>
+    
+    <label for="father name">father name :</label>
+    <input type="text" id="father name" name=" father name" required>
+    <br> 
+    <br>
+    <br>
+
+    <label for="mother  name">mother name:</label>
+    <input type="text" id="mother name" name=" mother name" required>
+    <br> 
+    <br>
+    <br>  
+    
+    <label for="Guardian  number">Guardian number:</label>
+    <input type="tel" id="Guardian number" name="Guardian number" required>
+    <br>
+    <br>
+    <br>
+    
+    <label for="Signature of student">Signature of student:</label>
+    <input type="text" id="Signature of student" name=" Signature of student" required>
+    <br> 
+    <br>
+    <br>  
+
+
+    
+    <div>
+        Gender: Male <input type="radio" name="myGender" >
+        Female <input type="radio" name="myGender">
+
+    </div>
+    <br> 
+    <br>
+    <br>
+    
+    <label for="reason to join in this clg">Reason to join this clg:</label>
+    <textarea id="type" name="reason to join in this clg" rows="4" cols="50"></textarea>
+    <br>
+    <br>
+    <br>
+
+ <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+  </form>             
+  </div>
+</body>
+</html>
+
